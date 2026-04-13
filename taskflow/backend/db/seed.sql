@@ -4,7 +4,7 @@ VALUES (
     '550e8400-e29b-41d4-a716-446655440000',
     'Test User',
     'test@example.com',
-    '$2b$12$LJ3m4ys8bOYylqTqMhme5O0GRMGannMBKQvz8iFLqJFr8MwIm3uGK'
+    '$2b$12$GPrOqwNfUlDQFmnZuDOhEOXdPoNeLwJRh0nsFbIfmrf9sbuZ/rRZK'
 );
 
 INSERT INTO projects (id, name, description, owner_id)
