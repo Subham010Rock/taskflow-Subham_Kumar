@@ -21,4 +21,12 @@ router.patch('/:id', projectController.update);
 // DELETE /projects/:id — Delete project
 router.delete('/:id', projectController.delete);
 
+// === TASK ROUTES (nested under projects) ===
+
+// GET /projects/:id/tasks
+router.get('/:id/tasks', taskController.list);
+
+// POST /projects/:id/tasks
+router.post('/:id/tasks', taskController.create);
+
 module.exports = router;
