@@ -9,8 +9,8 @@ const app = express();
 
 // STEP 3: Import route files
 const authRoutes = require('./routes/auth');
-const projectRoutes = require('./routes/projects');
-const taskRoutes = require('./routes/tasks');
+const projectRoutes = require('./routes/project');
+const taskRoutes = require('./routes/task');
 
 // STEP 4: Import middleware
 const errorHandler = require('./middleware/errorHandler');
