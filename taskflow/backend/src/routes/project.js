@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const projectController = require('../controllers/projectController');
+const taskController = require('../controllers/taskController');
 const authMiddleware = require('../middleware/auth');
 
 // All project routes require authentication
