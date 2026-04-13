@@ -90,3 +90,32 @@ git clone https://github.com/your-name/taskflow
 cd taskflow
 cp .env.example .env
 docker compose up
+```
+
+App available at http://localhost:3000
+
+## Running Migrations
+
+Migrations run automatically on startup using dbmate. No manual commands required.
+
+## Test Credentials
+
+Seed user credentials so you can log in immediately without registering:
+
+Email:    test@example.com  
+Password: password123
+
+## API Reference
+
+Import the Postman collection located at `taskflow/postman/TaskFlow.postman_collection.json` for all endpoints with examples.
+
+## What You'd Do With More Time
+
+With more time, I'd focus on the following improvements:
+
+- **Frontend UI**: Build a React/Vue.js dashboard for better user experience instead of API-only.
+- **API Documentation**: Generate OpenAPI/Swagger docs automatically from code.
+- **Rate Limiting & Security**: Add rate limiting, input sanitization beyond basic validation, and CORS configuration.
+- **Features**: Implement task comments, file attachments, notifications, and advanced filtering/search.
+
+Shortcuts taken: Focused on core functionality and clean architecture, but skipped advanced features like caching, background jobs, and comprehensive error recovery to meet the assignment deadline.
